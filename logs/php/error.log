@@ -1,0 +1,66 @@
+[29-Jul-2020 23:45:26 UTC] PHP Parse error:  syntax error, unexpected 'is' (T_STRING) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[29-Jul-2020 23:45:27 UTC] PHP Parse error:  syntax error, unexpected 'is' (T_STRING) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[29-Jul-2020 23:45:28 UTC] PHP Parse error:  syntax error, unexpected 'is' (T_STRING) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[29-Jul-2020 23:45:44 UTC] PHP Parse error:  syntax error, unexpected 'is' (T_STRING), expecting ',' or ';' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[29-Jul-2020 23:54:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[29-Jul-2020 23:54:26 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:6
+Stack trace:
+#0 /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/DCasely/...')
+#2 /Users/DCasely/Local Sites/fictional-university/app/public/index.php(17): require('/Users/DCasely/...')
+#3 {main}
+  thrown in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[29-Jul-2020 23:59:56 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[30-Jul-2020 00:00:08 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[30-Jul-2020 00:00:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[30-Jul-2020 00:00:52 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[30-Jul-2020 00:01:30 UTC] PHP Warning:  Use of undefined constant jack - assumed 'jack' (this will throw an Error in a future version of PHP) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[30-Jul-2020 00:01:30 UTC] PHP Stack trace:
+[30-Jul-2020 00:01:30 UTC] PHP   1. {main}() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:0
+[30-Jul-2020 00:01:30 UTC] PHP   2. require() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:17
+[30-Jul-2020 00:01:30 UTC] PHP   3. require_once() /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Jul-2020 00:01:30 UTC] PHP   4. include() /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[30-Jul-2020 00:01:30 UTC] PHP Warning:  Use of undefined constant blue - assumed 'blue' (this will throw an Error in a future version of PHP) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[30-Jul-2020 00:01:30 UTC] PHP Stack trace:
+[30-Jul-2020 00:01:30 UTC] PHP   1. {main}() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:0
+[30-Jul-2020 00:01:30 UTC] PHP   2. require() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:17
+[30-Jul-2020 00:01:30 UTC] PHP   3. require_once() /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Jul-2020 00:01:30 UTC] PHP   4. include() /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[30-Jul-2020 00:01:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function greet(), 0 passed in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 8 and exactly 2 expected in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:4
+Stack trace:
+#0 /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(8): greet()
+#1 /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/DCasely/...')
+#2 /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/DCasely/...')
+#3 /Users/DCasely/Local Sites/fictional-university/app/public/index.php(17): require('/Users/DCasely/...')
+#4 {main}
+  thrown in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[30-Jul-2020 00:01:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function greet(), 0 passed in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 8 and exactly 2 expected in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:4
+Stack trace:
+#0 /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(8): greet()
+#1 /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/DCasely/...')
+#2 /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/DCasely/...')
+#3 /Users/DCasely/Local Sites/fictional-university/app/public/index.php(17): require('/Users/DCasely/...')
+#4 {main}
+  thrown in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[30-Jul-2020 00:14:36 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[30-Jul-2020 00:14:36 UTC] PHP Stack trace:
+[30-Jul-2020 00:14:36 UTC] PHP   1. {main}() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:0
+[30-Jul-2020 00:14:36 UTC] PHP   2. require() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:17
+[30-Jul-2020 00:14:36 UTC] PHP   3. require_once() /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Jul-2020 00:14:58 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[30-Jul-2020 00:21:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[30-Jul-2020 00:21:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[30-Jul-2020 00:21:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[30-Jul-2020 00:22:38 UTC] PHP Warning:  Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[30-Jul-2020 00:22:38 UTC] PHP Stack trace:
+[30-Jul-2020 00:22:38 UTC] PHP   1. {main}() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:0
+[30-Jul-2020 00:22:38 UTC] PHP   2. require() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:17
+[30-Jul-2020 00:22:38 UTC] PHP   3. require_once() /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Jul-2020 00:22:38 UTC] PHP   4. include() /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[30-Jul-2020 00:22:38 UTC] PHP Warning:  Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[30-Jul-2020 00:22:38 UTC] PHP Stack trace:
+[30-Jul-2020 00:22:38 UTC] PHP   1. {main}() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:0
+[30-Jul-2020 00:22:38 UTC] PHP   2. require() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:17
+[30-Jul-2020 00:22:38 UTC] PHP   3. require_once() /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Jul-2020 00:22:38 UTC] PHP   4. include() /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[30-Jul-2020 02:33:25 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 5
