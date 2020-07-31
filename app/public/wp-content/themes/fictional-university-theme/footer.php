@@ -53,7 +53,7 @@
                 <li>
                   <a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </li>
-              </ul>
+              </ul> 
             </nav>
           </div>
         </div>
