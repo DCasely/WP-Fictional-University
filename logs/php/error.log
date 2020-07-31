@@ -64,3 +64,25 @@ Stack trace:
 [30-Jul-2020 00:22:38 UTC] PHP   3. require_once() /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php:19
 [30-Jul-2020 00:22:38 UTC] PHP   4. include() /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
 [30-Jul-2020 02:33:25 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 5
+[31-Jul-2020 01:19:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 23 and exactly 1 expected in /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/post.php:6876
+Stack trace:
+#0 /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(23): wp_get_post_parent_id()
+#1 /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/DCasely/...')
+#2 /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/DCasely/...')
+#3 /Users/DCasely/Local Sites/fictional-university/app/public/index.php(17): require('/Users/DCasely/...')
+#4 {main}
+  thrown in /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/post.php on line 6876
+[31-Jul-2020 01:19:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 23 and exactly 1 expected in /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/post.php:6876
+Stack trace:
+#0 /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(23): wp_get_post_parent_id()
+#1 /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/DCasely/...')
+#2 /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/DCasely/...')
+#3 /Users/DCasely/Local Sites/fictional-university/app/public/index.php(17): require('/Users/DCasely/...')
+#4 {main}
+  thrown in /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/post.php on line 6876
+[31-Jul-2020 01:31:53 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /Users/DCasely/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 26
+[31-Jul-2020 01:31:53 UTC] PHP Stack trace:
+[31-Jul-2020 01:31:53 UTC] PHP   1. {main}() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:0
+[31-Jul-2020 01:31:53 UTC] PHP   2. require() /Users/DCasely/Local Sites/fictional-university/app/public/index.php:17
+[31-Jul-2020 01:31:54 UTC] PHP   3. require_once() /Users/DCasely/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[31-Jul-2020 01:31:54 UTC] PHP   4. include() /Users/DCasely/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
